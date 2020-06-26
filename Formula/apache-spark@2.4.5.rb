@@ -8,7 +8,7 @@ class ApacheSparkAT245 < Formula
   
     bottle :unneeded
   
-    depends_on "openjdk@11"
+    depends_on :java => "1.8"
   
     def install
       # Rename beeline to distinguish it from hive's beeline
